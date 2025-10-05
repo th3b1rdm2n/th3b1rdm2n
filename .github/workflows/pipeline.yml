@@ -61,11 +61,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-notify:
-  name: Notify
-  needs: test
-  if: github.ref == 'refs/heads/main'
-  runs-on: ubuntu-latest
-  steps:
-    - name: Notify on main branch
-      run: echo "Tests passed on main branch"
+  notify:
+    name: Notify
+    needs: test
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Notify on main branch
+        run: echo "Tests passed on main branch"
