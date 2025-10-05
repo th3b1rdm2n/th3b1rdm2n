@@ -1,0 +1,218 @@
+# Android
+**/*.apk
+**/*.ap_
+**/*.dex
+
+# AWS
+**/*.aws-sam
+
+# Binaries
+**/*.dll
+**/*.exe
+**/*.so
+
+# Burp
+**/*.burp
+
+# C
+**/*.a
+**/*.lib
+**/*.o
+**/*.obj
+
+# CSharp
+**/*.csproj.user
+**/*.sln.docstates
+**/*.suo
+**/*.user
+**/*.userosscache
+
+# Elixir
+**/_build/
+**/*.ez
+**/deps/
+
+# Go
+**/*.out
+**/*.test
+**/vendor/
+
+# IDE
+**/.code-workspace
+**/.idea
+**/.vscode/
+!**/.vscode/extensions.json
+!**/.vscode/settings.json
+
+# iOS
+**/*.ipa
+**/*.xcarchive
+
+# Java
+**/.gradle
+**/.intellij/
+**/.mtj.tmp/
+**/.storm/
+**/*.class
+**/*.ear
+**/*.idea/
+**/*.iml
+**/*.ipr
+**/*.iws
+**/*.jar
+**/*.kotlin_module
+**/*.nar
+**/*.war
+**/bin/
+**/build/
+**/kotlin/
+**/target/
+
+# JavaScript
+**/.angular/
+**/.next/
+**/.node_repl_history
+**/.npm
+**/.nuxt/
+**/.parcel-cache/
+**/.temp
+**/.vue-cli-service/
+**/*.js.map
+**/*.min.js
+**/*.ts.map
+**/*.tsbuildinfo
+**/coverage/
+**/dist/
+**/e2e/
+**/node_modules/
+**/npm-debug.log
+**/package-lock.json
+**/public/
+**/yarn-debug.log
+**/yarn-error.log
+
+# Linux
+**/*.deb
+**/*.lock
+**/*.rpm
+**/*.tar.gz
+**/*.tmp
+**/*.zip
+
+# MacOs
+**/*.dylib
+
+# Miscellaneous
+**/*.bak
+**/*.log
+**/*.swp
+**/.env
+
+# Obsidian
+**/.obsidian/
+
+# Perl
+**/*.cgi
+**/*.pl.swp
+**/*.pm.swp
+**/*.t.swp
+
+# PHP
+**/*.phpdbg/
+**/*.phpstorm/
+**/*.phpunit/
+**/*.user.ini
+**/app/etc/env.php
+**/bootstrap/cache/
+**/composer.lock
+**/pub/media/
+**/pub/static/
+**/storage/
+**/var/
+**/vendor/
+**/wp-content/cache/
+**/wp-content/upgrade/
+**/wp-content/uploads/
+
+# PKI
+**/*.crl
+**/*.crt
+**/*.csr
+**/*.jks
+**/*.key
+**/*.p12
+**/*.pem
+
+# Python
+**/*.dist-info/
+**/*.egg-info/
+**/*.pyc
+**/*.pyd
+**/*.pyo
+**/__pycache__/
+**/.ipynb_checkpoints/
+**/.venv/
+**/env/
+**/ENV/
+**/venv/
+
+# Research
+**/.asset_checkpoint
+**/.dns_checkpoint
+**/.url_checkpoint
+**/.url_checkpoint4proxy
+**/.url_checkpoint.json
+**/*-tracker.txt
+**/burp-crawl-*
+**/burp-check-*
+**/programs/
+**/paused_programs/
+**/technologies.jsonl
+
+# Ruby
+**/_site
+**/*.gem
+**/.bundle
+**/.jekyll-cache
+**/.jekyll-metadata
+**/*.rbc
+**/*.rbenv/
+**/*.rvm/
+**/.ruby-gemset
+**/.ruby-version
+**/Gemfile.lock
+**/log/
+**/tmp/
+**/vendor
+
+# Rust
+**/Cargo.lock
+**/target/
+
+# Scala
+**/*.cache
+**/*.class
+**/*.tasty
+**/target/
+
+# SQlite
+**/*.db
+**/*.sqlite3
+
+# Swift
+**/*.swiftpm/
+**/*.swiftsourceinfo
+**/*.xcodeproj/
+**/*.xcworkspace/
+
+# Terraform
+**/*.tfstate
+**/*.tfstate.backup
+
+# Vagrant
+.vagrant/
+
+# WebAssembly
+**/*.wasm
+**/*.wat
+

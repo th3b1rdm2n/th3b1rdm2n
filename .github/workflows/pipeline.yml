@@ -1,0 +1,71 @@
+name: "Pipeline"
+
+on:
+  push:
+    branches:
+      - dev
+      - main
+    paths-ignore:
+      - .gitignore
+      - README.md
+      - LICENSE
+  pull_request:
+    types:
+      - closed
+    branches:
+      - main
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "${{ github.workflow }}-${{ github.ref }}"
+  cancel-in-progress: true
+
+jobs:
+  test:
+    name: Static & Security Checks
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Source Code
+        uses: actions/checkout@v4
+
+      - name: Run Trivy Repository Scan
+        uses: aquasecurity/trivy-action@master
+        with:
+          scan-type: 'repo'
+          scan-ref: '.'
+          format: table
+          exit-code: '0'
+          ignore-unfixed: true
+          vuln-type: 'os,library'
+          severity: 'CRITICAL,HIGH,MEDIUM'
+
+      - name: Run Trivy Filesystem Scan
+        uses: aquasecurity/trivy-action@master
+        with:
+          scan-type: 'fs'
+          scan-ref: '.'
+          format: table
+          exit-code: '0'
+          ignore-unfixed: true
+          vuln-type: 'os,library'
+          severity: 'CRITICAL,HIGH'
+
+      - name: Run Gitleaks Hardcoded Secret Scan
+        uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+notify:
+  name: Notify
+  needs: test
+  if: github.ref == 'refs/heads/main'
+  runs-on: ubuntu-latest
+  steps:
+    - name: Notify on main branch
+      run: echo "Tests passed on main branch"
