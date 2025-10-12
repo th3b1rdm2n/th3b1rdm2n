@@ -1,4 +1,4 @@
-# 👋🏽 Hi there! I'm Bírd Màn
+# 🐦 Maverick
 
 ### 🔬 Security Researcher | 🏗️ Infrastructure Engineer
 
@@ -8,7 +8,7 @@
 
 ---
 
-## 💫 About Me
+## 💫 Profile
 
 I'm a **security researcher** with a robust background in **infrastructure engineering**. My experience centers on designing **reliable systems**, deploying **robust applications**, and ensuring the underlying platforms are **observable and resilient**.
 
@@ -17,7 +17,7 @@ My philosophy:
 
 ---
 
-## 💻 Tech Stack
+## 🛠️ Toolset
 
 ### Languages
 ![Shell](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
@@ -53,7 +53,7 @@ My philosophy:
 
 ---
 
-## 🏆 Achievements
+## 🏆 Streaks
 <!-- Profile Details -->
 <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=th3b1rdm2n&theme=prussian" width="96%" alt="GitHub profile summary card">
 
@@ -66,7 +66,7 @@ My philosophy:
 <!-- General Stats & Productivity -->
 <div style="display: flex; justify-content: space-between; flex-wrap: wrap;">
   <img src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=th3b1rdm2n&theme=prussian" width="48%" alt="General stats">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=th3b1rdm2n&theme=prussian&utcOffset=+6.5" width="48%" alt="Most productive time">
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=th3b1rdm2n&theme=prussian&utcOffset=+1" width="48%" alt="Most productive time">
 </div>
 
 <!-- Contribution Graph -->
