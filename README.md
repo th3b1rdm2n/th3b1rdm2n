@@ -53,15 +53,33 @@ My philosophy:
 
 ---
 
-## 🏆 Achievements & Trophies
+## 🏆 Achievements
+<!-- Profile Details -->
+<img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=th3b1rdm2n&theme=prussian" width="96%" alt="GitHub profile summary card">
 
+<!-- Language & Commit Stats -->
+<div style="display: flex; justify-content: space-between; flex-wrap: wrap;">
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=th3b1rdm2n&theme=prussian" width="48%" alt="Repos per language">
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=th3b1rdm2n&theme=prussian" width="48%" alt="Most used commit language">
+</div>
+
+<!-- General Stats & Productivity -->
+<div style="display: flex; justify-content: space-between; flex-wrap: wrap;">
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=th3b1rdm2n&theme=prussian" width="48%" alt="General stats">
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=th3b1rdm2n&theme=prussian&utcOffset=+6.5" width="48%" alt="Most productive time">
+</div>
+
+<!-- Contribution Graph -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=th3b1rdm2n&bg_color=1E3A4C&color=00FFFF&line=FF0000&point=FFA07A&area=true&hide_border=false" width="96%" alt="Contribution graph">
+
+<!-- Streak & Trophies -->
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=th3b1rdm2n&theme=gotham&hide_border=true" alt="Bírd Màn GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=th3b1rdm2n&theme=gotham&hide_border=true" alt="GitHub Streak" />
+</p>
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=th3b1rdm2n&theme=tokyonight&no-frame=false&no-bg=true&margin-w=4" alt="GitHub Trophies" />
 </p>
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=th3b1rdm2n&theme=tokyonight&no-frame=false&no-bg=true&margin-w=4" alt="Bírd Màn GitHub Trophies" />
-</p>
 
 ---
 
