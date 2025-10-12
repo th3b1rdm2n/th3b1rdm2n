@@ -1,6 +1,4 @@
-# 🐦 Maverick
-
-### 🔬 Security Researcher | 🏗️ Infrastructure Engineer
+# 🔬 Security Researcher | 🏗️ Infrastructure Engineer
 
 <div align="left">
   <img src="https://komarev.com/ghpvc/?username=th3b1rdm2n&color=brightgreen" alt="Profile views count" />
@@ -26,14 +24,14 @@ My philosophy:
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)
 
-### Infrastructure & Virtualization
+### Platforms
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![VMWare](https://img.shields.io/badge/VMware-607080?style=for-the-badge&logo=vmware&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=google%20cloud&logoColor=white)
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 
-### Web & Networking
+### Networking
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
 ![Apache](https://img.shields.io/badge/Apache-D22128?style=for-the-badge&logo=apache&logoColor=white)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
@@ -44,7 +42,7 @@ My philosophy:
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
 
-### DevOps & Orchestration
+### Orchestration
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-3970e4?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
 ![Jenkins](https://img.shields.io/badge/jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white)
